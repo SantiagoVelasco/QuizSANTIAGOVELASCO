@@ -9,7 +9,9 @@
       Title="Home" Background="#FFE68080">
 
     <Grid Background="#FFAEE694">
-        <TextBlock Name="txtResults" HorizontalAlignment="Left" Height="234" Margin="584,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Background="White"/>
+        <ScrollViewer Margin="0,75,27,77">
+            <TextBlock Name="txtResults"  Margin="584,0,0,0" Text="" TextWrapping="Wrap" Width="164" Background="White"/>
+        </ScrollViewer>
         <Label Content="Movie name" HorizontalAlignment="Left" Margin="56,39,0,0" VerticalAlignment="Top"/>
         <TextBox Name="txtProductName" HorizontalAlignment="Left" Margin="155,43,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="96,298,0,0" VerticalAlignment="Top" Width="120" Click="btnSave_Click"/>

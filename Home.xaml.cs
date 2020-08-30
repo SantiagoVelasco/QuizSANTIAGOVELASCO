@@ -30,22 +30,21 @@ namespace EventParadigmExample
             string category = cboSize.Text;
             string fecha = calendario.SelectedDate.ToString();
 
-            txtResults.Text = productName + "\n" + category + "\n" + status +"\n"+ fecha;
+            txtResults.Text = txtResults.Text + productName + "\n" + category + "\n" + status +"\n"+ fecha;
 
             if (checkInStock.IsChecked.Value && checkOutStock.IsChecked.Value)
             {
-                txtResults.Text = "";
                 MessageBox.Show("Just check one status");
             }
             else
             {
             if (checkInStock.IsChecked.Value)
             {
-                txtResults.Text = txtResults.Text+"\n" + "Available";
+                txtResults.Text = txtResults.Text+"\n" + "Available"+"\n"+"\n";
             };
             if (checkOutStock.IsChecked.Value)
             {
-                txtResults.Text = txtResults.Text + "\n" + "Not vailable";
+                txtResults.Text = txtResults.Text + "\n" + "Not vailable"+"\n"+"\n";
             };
             }
  
