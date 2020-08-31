@@ -27,7 +27,7 @@ namespace EventParadigmExample
         {
             if (txtUsername.Text == "Carlos" && txtPassword.Password == "1234")
             {
-                MainWindow w = (MainWindow) Window.GetWindow(this);
+                MainWindow w = (MainWindow)Window.GetWindow(this);
                 w.frameMain.NavigationService.Navigate(new Home());
             }
             else

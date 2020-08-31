@@ -32,6 +32,7 @@
         <Calendar Name="calendario" HorizontalAlignment="Left" Height="172" Margin="333,0,0,0" VerticalAlignment="Center" Width="196"/>
         <Label Content="Category" HorizontalAlignment="Left" Margin="56,177,0,0" VerticalAlignment="Top"/>
         <Label Content="Date of purchase" HorizontalAlignment="Left" Margin="339,58,0,0" VerticalAlignment="Top"/>
+        <Button Name="btnLogout" Content="Log out" HorizontalAlignment="Left" Margin="371,298,0,0" VerticalAlignment="Top" Width="120" Click="btnLogout_Click"/>
 
     </Grid>
 </Page>
